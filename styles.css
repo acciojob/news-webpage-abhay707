@@ -1,54 +1,47 @@
 /*  your css code here. If applicable */
 body{
+	margin:8px;
 	background-color:#f5f5f5;
 }
 
 .header{
 	color:white;
-	padding:5px;
+	padding:10px;
 	text-align:center;
 	background-color:#011e29;
-	height:60px;
-	width:100%
-}
-
-h1{
-	margin:10px;
 }
 
 .main{
-	height:60%;
-	width:100%;
 	display:flex;
 	flex-direction:row;
-	justify-content:space-between;
-	text-align:center;
+	justify-content:space-around;
+	align-items:flex-start;
+	gap:20px;
+    padding:20px;
 }
 
 .latest-news-section,
 .main-article,
 .pictorial-news-section{
 	background-color:white;
-	border:none;
 	border-radius:20px;
+	padding:15px;
+	text-align:center;
 }
 
 .latest-news-section{
-	width:25%;
-	height:70%;
+	width:20%;
 }
 .main-article{
-	width:43%;
-	height:100%;
+	width:50%;
 }
 .pictorial-news-section{
-	width:30%;
-	height:100%;
+	width:20%;
 }
 
 img{
 	margin-bottom:10px;
-	width:90%;
+	width:100%;
 }
 
 
